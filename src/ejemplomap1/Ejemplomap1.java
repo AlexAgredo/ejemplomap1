@@ -99,6 +99,11 @@ else{
     }
     
     
+Map <Integer, LinkedList<Cliente>> l = FileFXML.leerArchivoXML();
+    
+    
+    
+    
     public static String mostrarDatosMap(Map<Integer, LinkedList<Cliente>> m) {
     String mostrar="";
     
